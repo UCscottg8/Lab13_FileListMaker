@@ -60,7 +60,7 @@ public class ListMaker {
     private static void deleteFromList() {
         displayList();
         int index = SafeInput.getRangedInt(scanner, "Enter the number of the item to delete", 1, list.size());
-        list.remove(index - 1)
+        list.remove(index - 1);
         needsToBeSaved = true;
     }
 
