@@ -78,7 +78,7 @@ public class ListMaker {
 
     private static void loadList() {
         if (needsToBeSaved && SafeInput.getYNConfirm(scanner, "You have unsaved changes. Save before loading?")) {
-            saveList();
+            saveList()
         }
         System.out.println("Enter filename to load from (without .txt extension):");
         String fileName = scanner.nextLine();
