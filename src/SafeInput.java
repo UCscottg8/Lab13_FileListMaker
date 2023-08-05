@@ -6,7 +6,7 @@ public class SafeInput {
         String retString = ""; // Set this to zero length. Loop runs until it isn’t
         do {
             System.out.print("\n" + prompt + ": "); // show prompt add space
-            retString = pipe.nextLine();
+            retString = pipe.nextLine()
         } while (retString.length() == 0);
         return retString;
     }
